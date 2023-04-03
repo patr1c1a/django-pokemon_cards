@@ -35,7 +35,8 @@ authenticate in order to use the API):
 
 `python manage.py createsuperuser`
 
-6.  Optionally, you can populate some or all of the tables in the database:
+6.  Optionally, you can populate some or all of the tables in the database with some example data (the images included 
+in `/media/img` are related to these, and you can safely delete them if not needed):
 
 `python manage.py runscript populate_expansions`
 
